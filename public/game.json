@@ -1,0 +1,38 @@
+{
+  "name": "Game",
+  "type": "object",
+  "properties": {
+    "api_id": {
+      "type": "string",
+      "description": "The ID from the Zelda API"
+    },
+    "name": {
+      "type": "string",
+      "description": "Game title"
+    },
+    "description": {
+      "type": "string",
+      "description": "Game description"
+    },
+    "developer": {
+      "type": "string",
+      "description": "Game developer"
+    },
+    "publisher": {
+      "type": "string",
+      "description": "Game publisher"
+    },
+    "released_date": {
+      "type": "string",
+      "description": "Release date"
+    },
+    "api_data": {
+      "type": "object",
+      "description": "Full API response data"
+    }
+  },
+  "required": [
+    "id",
+    "name"
+  ]
+}
